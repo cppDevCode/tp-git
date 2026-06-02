@@ -9,9 +9,9 @@ Ambos comando sirven para integrar cambios de una rama a otra, pero lo hacen de 
 
 **git rebase** toma los commit de una rama y los "reaplica" uno por uno sobre otra base. El resultado es un historial lineal, como si los cambios siempre hubieran partido de ese punto. 
 
-## Git merge
+#### Git merge
 ### Parámetros
-
+ git add explicaciones/03-merge-rebase.md
 #### --no-ff
 Fuerza la creación de un commit de merge aunque sea posible hacer un fest-foward. Es útil para dejar registro de que hubo una fusión.
 
