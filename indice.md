@@ -20,3 +20,5 @@ La estructura del repositorio se organiza de la siguiente manera:
 ## Indice
 [00 - Definiciones](./explicaciones/00-definiciones.md)  
 [01 - Git init](./explicaciones/01-git-init.md)
+[02 - Merge y Rebase](./explicaciones/03-merge-rebase.md)
+[04 - Git Status](./explicaciones/04-status.md)
