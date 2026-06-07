@@ -1,4 +1,4 @@
-[Indice](../indice.md) > Git Revert
+[Indice](../indice.md) > Git Commit
 
 Git Commit
 
