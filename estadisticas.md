@@ -63,3 +63,28 @@ Comando usado para contar el total:
 ```bash
 git branch -a | wc -l
 ```
+
+
+## Captura de un conflicto previo a su resolución
+
+**Conflicto detectado:** Al fusionar `origin/feature/estadísticas-JD` con `origin/feature/estadisticas-MB`
+en el archivo `estadisticas.md`.
+
+**Commits asociados:**
+- `31499e8` (HEAD de `feature/estadísticas-JD`) — "*agrego cantidad de conflictos y de ramas*"
+- `8f79d5c` (HEAD de `feature/estadisticas-MB`) — "*feat(estadisticas): se agregan estadisticas cant de merges y mayor modificacion de archivo*"
+
+**Comandos utilizados para reproducir el conflicto:**
+
+```bash
+git checkout -b test origin/feature/estadísticas-JD
+git merge --no-commit origin/feature/estadisticas-MB
+```
+
+Salida del merge:
+
+```
+Auto-fusionando estadisticas.md
+CONFLICTO (contenido): Conflicto de fusión en estadisticas.md
+Fusión automática falló; arregle los conflictos y luego realice un commit con el resultado.
+```
