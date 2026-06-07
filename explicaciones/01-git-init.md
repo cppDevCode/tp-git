@@ -14,7 +14,6 @@ Durante la ejecución del init solo muestra los errores y advertencias.
 
 ### --bare
 Crea un repositorio Bare. Si la variable de entorno GIT_DIR no esta establecida, esta se setea con el directorio actual de trabajo.
-Para ver mas sobre que es un repositorio Bare visita el siguiente [link](./00-git-definiciones.md)
 
 ### --object-format=<formato>
 En la etiqueta <formato> se debe especificar el algoritmo hash usado en el repositorio. Las opciones validas son sha1 (Valor predeterminado) o sha256 (Debe activarse). 
