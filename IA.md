@@ -9,8 +9,5 @@ commit asociado: Se uso la IA para desarrollar la solucion final.
 
     Comando resultante: 
     ```bash
-    git log --oneline | ForEach-Object {
-    $hash = ($_ -split ' ')[0]
-    $count = (git diff-tree --no-commit-id -r --name-only $hash).Count
-    [PSCustomObject]@{Hash=$hash; Count=$count}} | Sort-Object Count -Descending | Select-Object -First 1
+    git log --oneline | while read hash msg; do echo "$hash $(git diff-tree --no-commit-id -r --name-only $hash | wc -l)"; done | sort -t' ' -k2 -rn | head -1
     ```
