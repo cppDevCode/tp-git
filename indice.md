@@ -40,7 +40,8 @@ Sin embargo, para garantizar que todos los integrantes experimentaran con los di
 #### Responsables del Relevamiento de Estadísticas
 Para la confección del reporte de analíticas del repositorio , cada integrante asumió el rol de auditar y extraer métricas específicas utilizando comandos avanzados de Git:  
 * **Baldres, Alejandro Lucas:**  
-*Métrica 1*: Identificación del integrante que realizó la mayor cantidad de commits, detallando la cantidad exacta obtenida.  *Métrica 2*: Captura de pantalla de un conflicto previo a su resolución, documentando el hash del commit asociado en el flujo de trabajo.  
+*Métrica 1*: Identificación del integrante que realizó la mayor cantidad de commits, detallando la cantidad exacta obtenida.  
+*Métrica 2*: Captura de pantalla de un conflicto previo a su resolución, documentando el hash del commit asociado en el flujo de trabajo.  
 * **Dabús, Julieta:**  
 *Métrica 3*: Conteo y registro de la cantidad total de conflictos producidos durante la integración de las ramas.  
 *Métrica 4*: Relevamiento de la cantidad total de ramas (tanto locales como remotas) existentes en el ciclo de vida del repositorio.  
@@ -52,10 +53,10 @@ Para la confección del reporte de analíticas del repositorio , cada integrante
 
 
 ## Indice
-[01 - Git init](./explicaciones/01-git-init.md)
-[02 - Git add](./explicaciones/02-git-add.md)
-[02 - Git commit](./explicaciones/03-git-commit.md)
-[03 - Merge y Rebase](./explicaciones/03-merge-rebase.md)
-[04 - Git Status](./explicaciones/04-status.md)
-[05 - Git Status](./explicaciones/05-git-log.md)
+[01 - Git init](./explicaciones/01-git-init.md)  
+[02 - Git add](./explicaciones/02-git-add.md)  
+[02 - Git commit](./explicaciones/03-git-commit.md)  
+[03 - Merge y Rebase](./explicaciones/03-merge-rebase.md)  
+[04 - Git Status](./explicaciones/04-status.md)  
+[05 - Git Status](./explicaciones/05-git-log.md)  
 [06 - Estadisticas](estadisticas.md)
